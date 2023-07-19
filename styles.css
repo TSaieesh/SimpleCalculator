@@ -1,0 +1,86 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(229, 234, 213);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainbox{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal-box{
+    width: 350px;
+    height: 460px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(201, 246, 240);
+}
+
+.cal-box h1{
+    background-color: rgba(143, 225, 248, 0.856);
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin: 0;
+}
+
+.cal-box h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.cal-box input{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 0;
+    width: 318px;
+    background-color: rgb(141, 234, 245);
+}
+
+.cal-box #res{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.cal-box #answer1{
+    background-color: rgb(141, 234, 245);
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 7px;
+    border: 2px solid black;
+}
+
+.cal-box .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cal-box button{
+    cursor: pointer;
+    background-color: rgba(2, 23, 30, 0.856);
+    padding: 6px;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.cal-box button:hover{
+    background-color: orange;
+    color: black;
+}
